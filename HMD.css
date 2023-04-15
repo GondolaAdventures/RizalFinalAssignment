@@ -1,9 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 body {
-  background: #45b9d3;
-  color: white;
+  background-image: url('RizalManga-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background: #9d9f9f;*/
+  color: rgb(255, 255, 174);
   overflow: hidden;
+}
+
+.bg-img {
+  background-image: url('RizalManga.jfif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
 }
 
 .dark {
@@ -13,6 +27,24 @@ body {
   bottom: 0;
   background: rgba(29, 25, 52, 0.9);
   z-index: 5000;
+}
+
+.josepng {
+  opacity: 0.5;
+  max-width: 100%;
+  height: auto;
+}
+
+.contain {
+  position: relative;
+  text-align: center;
+}
+
+.contain2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1, h2 {
